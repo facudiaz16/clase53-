@@ -1,0 +1,32 @@
+.not-found-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.Error404 {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+}
+
+.not-found-link {
+    position: absolute;
+    top: 74%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white; /* Ajusta el color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Añade un fondo semi-transparente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.not-found-link:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Cambio en hover para mejor interacción */
+}
